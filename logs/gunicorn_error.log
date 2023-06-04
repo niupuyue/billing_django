@@ -1,0 +1,48 @@
+[2023-06-04 18:45:19 +0800] [4078] [INFO] Starting gunicorn 20.1.0
+[2023-06-04 18:45:19 +0800] [4078] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:45:19 +0800] [4078] [ERROR] Retrying in 1 second.
+[2023-06-04 18:45:20 +0800] [4078] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:45:20 +0800] [4078] [ERROR] Retrying in 1 second.
+[2023-06-04 18:45:21 +0800] [4078] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:45:21 +0800] [4078] [ERROR] Retrying in 1 second.
+[2023-06-04 18:45:22 +0800] [4078] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:45:22 +0800] [4078] [ERROR] Retrying in 1 second.
+[2023-06-04 18:45:23 +0800] [4078] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:45:23 +0800] [4078] [ERROR] Retrying in 1 second.
+[2023-06-04 18:45:24 +0800] [4078] [ERROR] Can't connect to ('0.0.0.0', 5003)
+[2023-06-04 18:48:39 +0800] [4111] [INFO] Starting gunicorn 20.1.0
+[2023-06-04 18:48:39 +0800] [4111] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:48:39 +0800] [4111] [ERROR] Retrying in 1 second.
+[2023-06-04 18:48:40 +0800] [4111] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:48:40 +0800] [4111] [ERROR] Retrying in 1 second.
+[2023-06-04 18:48:41 +0800] [4111] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:48:41 +0800] [4111] [ERROR] Retrying in 1 second.
+[2023-06-04 18:48:42 +0800] [4111] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:48:42 +0800] [4111] [ERROR] Retrying in 1 second.
+[2023-06-04 18:48:43 +0800] [4111] [ERROR] Connection in use: ('0.0.0.0', 5003)
+[2023-06-04 18:48:43 +0800] [4111] [ERROR] Retrying in 1 second.
+[2023-06-04 18:48:44 +0800] [4111] [ERROR] Can't connect to ('0.0.0.0', 5003)
+[2023-06-04 19:01:30 +0800] [4221] [INFO] Starting gunicorn 20.1.0
+[2023-06-04 19:01:30 +0800] [4221] [INFO] Listening at: http://0.0.0.0:5003 (4221)
+[2023-06-04 19:01:30 +0800] [4221] [INFO] Using worker: gevent
+[2023-06-04 19:01:30 +0800] [4222] [INFO] Booting worker with pid: 4222
+[2023-06-04 19:01:30 +0800] [4223] [INFO] Booting worker with pid: 4223
+[2023-06-04 19:01:30 +0800] [4224] [INFO] Booting worker with pid: 4224
+[2023-06-04 19:01:30 +0800] [4225] [INFO] Booting worker with pid: 4225
+Not Found: /static/admin/css/fonts.css
+Not Found: /admin/
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/nav_sidebar.css
+[2023-06-04 11:01:54 +0000] [4223] [INFO] Parent changed, shutting down: <Worker 4223>
+[2023-06-04 11:01:54 +0000] [4224] [INFO] Parent changed, shutting down: <Worker 4224>
+[2023-06-04 11:01:54 +0000] [4222] [INFO] Parent changed, shutting down: <Worker 4222>
+[2023-06-04 11:01:54 +0000] [4223] [INFO] Worker exiting (pid: 4223)
+[2023-06-04 11:01:54 +0000] [4224] [INFO] Worker exiting (pid: 4224)
+[2023-06-04 11:01:54 +0000] [4222] [INFO] Worker exiting (pid: 4222)
+[2023-06-04 11:01:54 +0000] [4225] [INFO] Parent changed, shutting down: <Worker 4225>
+[2023-06-04 11:01:54 +0000] [4225] [INFO] Worker exiting (pid: 4225)

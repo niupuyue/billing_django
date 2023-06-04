@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  mysql:
+    image: "mysql:5.7"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      TZ: Asia/Shanghai
+    ports:
+      - 33307:3306
+    volumes:
+      - ./dockerdata/mysql/data:/var/lib/mysql
+      - ./dockerdata/mysql/initdb:/docker-entrypoint-initdb.d
+
+  redis:
+    image: redis:6.2.5-alpine3.14
+    restart: always
+    ports:
+      - 36379:6379
+    command: redis-server --appendonly yes --requirepass 123456
+    volumes:
+      - ./dockerdata/redis/:/data/
